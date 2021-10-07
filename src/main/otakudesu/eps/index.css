@@ -1,0 +1,7 @@
+.tab {
+border: 2px black solid;
+}
+.link {
+    color: #555;
+    cursor: pointer;
+}

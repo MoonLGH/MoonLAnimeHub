@@ -1,0 +1,410 @@
+.tab {
+    border: 2px black solid;
+    }
+    .link {
+        color: #555;
+        cursor: pointer;
+    }
+    
+    .dl{
+        padding: 0 10px 0 8px;
+        color: #2168B0;
+        border-right: 1px double #377BC0;
+    }
+    #dl li{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        direction: ltr;
+            margin-bottom: 3px;
+            text-align: -webkit-match-parent;
+        }
+    
+    #dl strong{
+        font-weight: 700;
+        width: 80%;
+        margin: 5px auto;
+        background: #5a5856;
+        padding: 5px 5px;
+        text-align: center;
+        color: #fff;
+        display: block;
+    }
+    #dl a{
+        box-sizing: border-box;
+        text-align: -webkit-match-parent;
+        padding: 0 10px 0 8px;
+        /* margin-left: ; */
+    }
+    #dl i{
+        line-height: normal;
+        width: 108px;
+        background: #5a5856;
+        display: inline-block;
+        padding: 2px 2px;
+        text-align: center;
+        color: #fff;
+        box-sizing: border-box;
+        margin: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        direction: ltr;
+    }
+
+
+    
+.content h6{color:#333;display:block;padding:15px;background:#f9f9f9;border:1px solid #ddd;border-radius:5px;font-size:13px;margin:5px 0}h5.trailerh5 span{font-size:13px;background:#eee;padding:4px;float:right;margin-left:5px;border:1px solid #ddd;cursor:pointer}h5.trailerh5 span.st{background:#44ACFF;border:1px solid transparent;color:#fff}.trailer iframe{width:90%;margin:0 auto 10px;display:block;border:none;height:330px}.tr2{display:none}.download h5,.downloadbaru h5{text-align:center;margin-bottom:10px;padding-bottom:10px;border-bottom:3px solid #FFA033;position:relative;color:#333}.download h5 span,.downloadbaru h5 span{padding:5px;color:#fff;background:#EB912A;border-radius:3px}.download h5:after,.downloadbaru h5:after{position:absolute;bottom:-3px;left:50%;transform:translate(-50%,0);border-bottom:3px solid #1F84FF;width:50%}.downloadbaru h3{line-height:35px;background:#357897;color:#fff;font-size:13px;position:relative;padding-left:110px}.downloadbaru h3 em{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;background:#104F6C;width:100px;display:flex;font-style:normal;margin-right:7px;text-align:center;justify-content:center;align-items:center;height:100%;position:absolute;left:0;top:0;line-height:0}.downloadbaru li a{display:inline-block;font-size:13px;padding:0 15px;line-height:35px}.downloadbaru li em,.downloadbaru li strong{font-size:12px;display:flex;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;width:100px;top:0;height:100%}.downloadbaru li a:hover{color:#2379A1}.downloadbaru li a:visited{color:#FFA33F}.downloadbaru li{border-bottom:1px solid #eee;position:relative;padding-right:100px;padding-left:100px}.downloadbaru li em{background:#146388;color:#fff;font-style:normal;position:absolute;right:0;justify-content:center;align-items:center}.downloadbaru li strong{color:#333;border-left:3px solid #ddd;position:absolute;left:0;align-items:center;justify-content:center}.downloadbaru li:nth-child(odd) strong{border-left:3px solid #eee}.downloadbaru li strong:after{position:absolute;bottom:-1px;border-bottom:1px solid #ddd;width:100%;left:0}.downloadbaru ul{margin-bottom:20px}.download{margin-bottom:10px;font-size:13px}.download p{color:#333}.download h4{font-size:13px;padding:5px;background:#6e7aff;color:#fff;border-left:5px solid #47516E}.download li{margin-bottom:3px;display:block}.download a{padding:0 13px 0 10px;color:#2168B0;border-right:1px dashed #377BC0}.download a:visited{color:#E1933F}.download ul{margin:5px 0;background:#f9f9f9;padding:5px;border:1px solid #e5e5e5}.download strong{width:40px;background:#5a5856;display:inline-block;padding:5px 2px;text-align:center;color:#fff}.download blockquote strong{border-right:5px solid #5B6DA5;color:#fff}.download blockquote h4{border-bottom:5px solid #47516E;margin-bottom:5px}.download blockquote{border-bottom:3px solid #ABB6D7;padding-bottom:15px;margin:0 0 15px}.download iframe{width:100%;height:auto;border:none}.download b,.download h3{border-radius:3px;color:#fff}.download h3{padding:5px;font-size:13px;margin:10px 0;background:#ff8346;border-left: 5px solid #47516E;}.download b{padding:4px;background:#529AC6;font-size:11px;margin-left:10px}.boxdownload2 li a{border-right:none}.boxdownload2 li{float:left;width:32.3%;margin-right:1%;line-height:25px}ul.boxdownload2{border:none;background:#fff;overflow:hidden}.boxdownload2 b{text-align:center;width:80px;background:#F45555;display:inline-block;color:#fff}.download i{width:70px;display:inline-block;padding:5px 2px;text-align:center;color:#fff;background:#5a5856;}
+
+@media screen and (max-width:1170px){.fixing1 .shabjad{left: 0;}}@media screen and (max-width:990px){.download{text-align:center}.download strong{width:90%;margin:5px auto}.download a{line-height:30px}.footerwidget h3{font-size:16px}.about p{font-size:14px}.trailer iframe{height:300px}.liveaction{width:48%;margin-right:2%}.tableinfo{overflow:visible}.coverthumbnail2{float:none;margin:auto}.tableinfo h5{font-size:15px}.lettergroup li{width:100%}.downloadbaru li em{position:static;display:block;height:25px;text-align:center;line-height:25px;border-radius:3px;width:80px;margin:3px auto}.downloadbaru li a{padding:0 5px}.downloadbaru li{text-align:center;padding:5px 0}.downloadbaru li strong{display:block;position:static;background:#1E5881;padding:10px;color:#fff;border-left:0;width:90%;height:auto;margin:0 auto;left:none;right:none;border-right:3px solid #eee;text-align:center}.abjadbaru{display:block}.abjadbaru li a{width:7.6%}.downloadbaru h3 em{position:static;display:block;padding:5px;width:auto;height:auto;line-height:35px;margin-right:0}.downloadbaru h3{padding-left:5px;padding:5px;text-align:center}.download .dlcuy li span.sizedlcuy,.download .batch-dlcuy ul li span.sizebatchuy{padding:10px;margin:5px auto 0 auto;display:block;width:50%}.download .dlcuy ul li a,.download .batch-dlcuy ul li a{padding:10px;line-height:normal}.download .dlcuy h4{border-top:3px solid #47516E}.download .dlcuy h4 span{top:50%;-webkit-transform:translate(0,-50%);-ms-transform:translate(0,-50%);transform:translate(0,-50%)}.tambsingle{text-align:center}.tambsingle li{display:inline-block}.tambsingle li a{float:none}.tambsingle li.ongosing,.tambsingle li.harsing{float:none;display:block}}@media screen and (max-width:340px){.sharing li{white-space:nowrap;overflow:hidden}.trailer iframe{height:250px}.liveaction{width:100%;margin-right:0}.info{clear:both}.sticky .thumbnail{height:200px}}
+
+.alert{padding:15px;margin-bottom:21px;border:1px solid transparent;border-radius:0}.alert h4{margin-top:0;color:inherit}.alert .alert-link{font-weight:bold}.alert>p,.alert>ul{margin-bottom:0}.alert>p+p{margin-top:5px}.alert-dismissable,.alert-dismissible{padding-right:35px}.alert-dismissable .close,.alert-dismissible .close{position:relative;top:-2px;right:-21px;color:inherit}.alert-success{background-color:#3fb618;border-color:#4e9f15;color:#ffffff}.alert-success hr{border-top-color:#438912}.alert-success .alert-link{color:#e6e6e6}.alert-info{background-color:#7b7bfb;border-color:#0505bf;color:#ffffff}.alert-info hr{border-top-color:#693c96}.alert-info .alert-link{color:#e6e6e6}.alert-warning{background-color:#ff7518;border-color:#ff4309;color:#ffffff}.alert-warning hr{border-top-color:#ee3800}.alert-warning .alert-link{color:#e6e6e6}.alert-danger{background-color:#ff0039;border-color:#f0005e;color:#ffffff}.alert-danger hr{border-top-color:#d60054}.alert-danger .alert-link{color:#e6e6e6}
+
+div.yondarkness-box {background-color: #4a4848; font-family: Arial, Tahoma, 'Lucida Sans Unicode', 'Lucida Grande'; font-size: 12px; line-height: 12px; margin: 0px 0px 20px; outline: 0px; overflow: hidden; padding: 20px; vertical-align: baseline; width: 100%;}
+div.yondarkness-title {background-color: #444446; background-position: 7px 6px; background-repeat: no-repeat no-repeat; border: 1px; color: #ffffff; float: left; font-family: Tahoma; font-size: 11px; font-weight: bold; margin: 0px 0px 3px; outline: 0px; padding: 10px 0px 10px 0px; vertical-align: baseline; width: 100%;}
+div.yondarkness-item {background-color: #ffffff; background-position: 7px 6px; background-repeat: no-repeat no-repeat; border: 0px; float: left; font-family: Tahoma; font-size: 11px; font-weight: bold; margin: 0px 0px 2px; outline: 0px; padding: 10px 0px 10px 0px; vertical-align: baseline; width: 100%;}
+.yondarkness-link {color: #0000ff}
+
+.arealinker span {
+font-weight: bold;
+display: block;
+margin-bottom: 5px;
+}
+.dlbod {
+overflow: hidden;
+margin-bottom:10px;
+margin-top:0px !important;
+}
+.dlbod .liner {
+
+        margin: 0px 0px 10px;
+}
+.dlbod .liner .name {
+background: rgb(0, 173, 255);
+padding: 5px 10px;
+color: #fff;
+font-weight: bold;
+text-align: center;
+}
+.dlbod .liner .listlink {
+    background: #333;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dlbod .liner .listlink b {
+margin-right: 5px;
+float: left;
+    color: #fff;
+font-size: 11px;
+line-height: 19px;
+padding: 5px 5px;
+background: #00afef;
+}
+.dlbod .liner .listlink p {display: inline;}
+.dlbod .liner .listlink a {
+display: block;
+float: left;
+margin-right: 5px;
+    color: #fff;
+    padding: 7px;
+}
+.dlbod .liner .listlink a:hover  {color:#00afef;}
+.animeinfo {
+
+  width: 100%;
+
+  float: left;
+
+}
+
+.infojudul h2 {
+
+  font-family: -Open sans-, sans-serif;
+
+  font-weight: bold;
+
+  color: #0000CC;
+
+  font-size: 20px;
+
+  border-bottom: 3px solid #4D4DFF;
+
+  margin-bottom: 8px;
+
+  background: none;
+
+  padding: 4px 0;
+
+}
+
+.imganime {
+
+  float: left;
+
+  margin-right: 8px;
+
+}
+
+.imganime img {
+
+  width: 180px;
+
+  height: 255px;
+
+  border: 1px solid #DDD;
+
+  padding: 4px;
+
+  margin-top: 0;
+
+  border-radius: 0;
+
+  background: #FFF;
+
+}
+
+.data {
+
+  height: 265px;
+
+  margin-bottom: 8px;
+
+  position: relative;
+
+}
+
+.infos {
+  font-family: 'Open sans', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 10px;
+  color: #a8b3bb;
+}
+
+.infos a {
+
+  color: #a8b3bb;
+
+}
+
+.totalepisode {
+
+  position: absolute;
+
+  right: 0;
+
+  top: 0;
+
+  width: 135px;
+
+}
+
+.total {
+
+  font-size: 27px;
+
+  text-align: center;
+
+  padding: 3px 0;
+
+  font-weight: bold;
+
+  font-family: 'Open sans', sans-serif;
+
+  background: #FFF;
+
+}
+
+.total a {
+
+  color: #222;
+
+}
+
+.deskripsi {
+  text-align: justify;
+  font-size: 13px;
+  margin: 10px 0;
+  background: #313131;
+  padding: 10px;
+  line-height: 23px;
+  color: #cecece;
+}
+
+.isi {
+
+  color: #333333;
+
+  font-size: 12px;
+
+  font-family: 'Open sans',sans-serif;
+
+}
+
+.judulanime {
+
+  position: relative;
+
+  padding: 4px 0;
+
+  color: #444;
+
+  font-weight: bold;
+
+  font-size: 12px;
+
+  margin-bottom: 1px;
+
+  font-family: helvetica,sans-serif;
+
+  border-bottom: 2px solid #4D4DFF;
+
+}
+
+.pdate {
+
+  position: absolute;
+
+  top: 0;
+
+  line-height: 26px;
+
+  right: 0;
+
+  padding: 0 6px;
+
+  text-align: center;
+
+  width: 120px;
+
+}
+
+.anilist:nth-child(even) {
+
+  background: #FFFFFF;
+
+}
+
+.tautan {
+
+  width: 467px;
+
+  font-size: 12px;
+
+  float: left;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+  background-size: 14px;
+
+  background-position: 0px;
+
+}
+
+.tautan a {
+
+  color: #505050;
+
+}
+
+.ldate {
+
+  float: right;
+
+  width: 132px;
+
+  font-size: 12px;
+
+  text-align: center;
+
+  margin-right: -5px;
+
+  color: #505050;
+
+  font-family: 'Open sans', sans-serif;
+
+}
+
+.anilist:nth-child(odd) {
+
+  background: #FAFAFA;
+
+}
+
+.anilist {
+
+  list-style: none;
+
+  padding: 0 5px;
+
+  border-bottom: 1px solid #F0F0F0;
+
+  line-height: 25px;
+
+  height: 25px;
+
+}
+
+.totalepisode h2 {
+
+  border-bottom: 0;
+
+  font-weight: bold;
+
+  font-size: 12px;
+
+  text-align: center;
+
+  padding: 3px 0;
+
+  margin-bottom: 1px;
+
+  background: #313B42;
+
+  color: #FFF;
+
+}
+
+.totalepisode h3 {
+
+  margin: 0;
+
+  font-size: 12px;
+
+  font-family: 'Open sans', sans-serif;
+
+  text-align: center;
+
+  padding: 3px 0;
+
+  background: #4D4DFF;
+
+  color: #FFF;
+
+}
+
+.totalepisode h3 a{color:#fff}
+@media only screen and ( max-width: 720px ) {.kiri{float:left;width:100%}}
+@media only screen and ( max-width: 520px ) {.kiri{float:left;width:100%}}
+@media only screen and ( max-width: 320px ) {.kiri{float:left;width:100%}}
+
+@media only screen and ( max-width: 720px ) {
+.imganime {float: none;}
+}
+@media only screen and ( max-width: 450px ) {
+.totalepisode {width: 100%;}
+.totalepisode h5 {display: none;}
+.total {display: none;}
+}

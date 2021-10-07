@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Main Menu</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+  <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+</head>
+
+<body id="page-top">
+  <div id="wrapper">
+    <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 toggled">
+      <div class="container-fluid d-flex flex-column p-0" style="position: relative; top: 25px">
+        <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+          <div class="sidebar-brand-icon">
+            <img src="../favicon.ico" width="64px">
+          </div>
+          <div class="sidebar-brand-text mx-3"><span>MoonL</span></div>
+        </a>
+        <hr class="sidebar-divider my-0">
+        <ul class="nav navbar-nav text-light" style="position: relative; top: 10px" id="accordionSidebar">
+          <li class="nav-item" role="presentation"><a class="nav-link" href="./otakudesu/index.html"><img
+                src="assets/img/OD.png" width="64px"><span>Otakudesu</span></a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="./komikcast/index.html"><img
+                src="assets/img/kc.png" width="64px"><span>KomikCast</span></a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="./Mangadex/index.html"><img
+                src="assets/img/MD.png" width="64px"><span>MangaDex</span></a></li>
+        </ul>
+        <div class="text-center d-none d-md-inline " style="position: relative; top: 25px">
+          <button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button>
+        </div>
+      </div>
+    </nav>
+    <div class="d-flex-column" id="content-wrapper">
+      <div class="jumbotron text-center swing animated mb-4 "">
+          <h1 id="Welcomer">
+        </h1>
+        <hr class="wel">
+        <h4>Wecome to MoonL Anime HUB</h4>
+      </div>
+      <div>
+        <br>
+        <div class="jumbotron text-center swing animated mb-4">
+          <div class="row">
+            <div class="col-md-4">
+              <h1>Otakudesu</h1>
+              <hr class="mover">
+              <p>Go To OtakuDesu Page</p>
+              <button class="btn btn-primary" onclick="window.location.href='./otakudesu/index.html'">Otakudesu</button>
+            </div>
+            <div class="col-md-4">
+              <h1>MangaDex</h1>
+              <hr class="mover">
+              <p>Go To MangaDex Page</p>
+              <button class="btn btn-primary" onclick="window.location.href='./Mangadex/index.html'">MangaDex</button>
+            </div>
+            <div class="col-md-4">
+              <h1>KomikCast</h1>
+              <hr class="mover">
+              <p>Go To KomikCast Page</p>
+              <button class="btn btn-primary" onclick="window.location.href='./komikcast/index.html'">KomikCast</button>
+            </div>
+          </div>
+          <div id="br">
+            <br>
+            <br>
+            <br>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Link Revealer</h1>
+              <hr class="mover">
+              <p>Reveal Link Download Mu</p>
+              <button class="btn btn-primary" onclick="window.location.href='./Link/index.html'">Link Revealer</button>
+            </div>
+            <div class="col-md-6">
+              <h1>Settings</h1>
+              <hr class="mover">
+              <p>Go To Settings</p>
+              <button class="btn btn-primary" onclick="window.location.href='./Settings/index.html'">Settings</button>
+            </div>
+          </div>
+          <div id="br">
+            <br>
+            <br>
+            <br>
+          </div>
+          <br>
+          <button class="btn btn-primary" onclick="openlinks()">Open Links Window</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="jquery-3.5.1.min.js"></script>
+
+
+  <script src="index.js"></script>
+  <script>
+    window.$ = window.jQuery = require('jquery');
+  </script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+  <script src="assets/js/theme.js"></script>
+
+
+</body>
+
+
+</html>

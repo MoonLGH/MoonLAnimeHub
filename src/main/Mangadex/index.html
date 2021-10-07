@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>MangaDex</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+  <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+</head>
+
+<body id="page-top">
+  <div id="wrapper">
+    <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 toggled">
+      <div class="container-fluid d-flex flex-column p-0" style="position: relative; top: 25px">
+        <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0 prevent"
+          href="../index.html">
+          <div class="sidebar-brand-icon">
+            <img src="../favicon.ico" width="64px">
+          </div>
+          <div class="sidebar-brand-text mx-3"><span>MoonL</span></div>
+        </a>
+        <hr class="sidebar-divider my-0">
+        <ul class="nav navbar-nav text-light" style="position: relative; top: 10px" id="accordionSidebar">
+          <li class="nav-item" role="presentation"><a class="nav-link" href="../otakudesu/index.html"><img
+                src="assets/img/OD.png" width="64px"><span>Otakudesu</span></a></li>
+        </ul>
+        <div class="text-center d-none d-md-inline " style="position: relative; top: 25px"><button
+            class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+      </div>
+    </nav>
+    <div class="d-flex-column" id="content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#f49526; height: 7.5%;">
+        <div class="sidebar-brand-icon">
+          <img src="../assets/img/MD.png" class="md-icon" width="64px">
+        </div>
+        <a class="navbar-brand" href="#">MangaDex</a>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <select id="homelook" class="nav-link btn btn-bd-light dropdown-toggle"
+                onchange="change('homeselect',this.selectedIndex)">
+                <option>Mangas</option>
+                <option>Authors</option>
+              </select>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Genre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BookMarks <i class="fa fa-book"></i></a>
+            </li>
+          </ul>
+          <div class="form-inline">
+            <div class="input-group">
+              <select id="searchselect" class="input-group-text"
+                style="border-bottom-right-radius: 0px; border-top-right-radius: 0px;"
+                onchange="change('search',this.selectedIndex)">
+                <option>Mangas</option>
+                <option>Authors</option>
+              </select>
+              <input type="text" id="keyword" class="form-control" placeholder="Search...">
+              <div class="input-group-append" id="search">
+                <span class="input-group-text"><i class="fa fa-search"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+        <br>
+        <div id="main">
+
+        </div>
+        <div id="lc">
+
+        </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+
+  <script src="jquery-3.5.1.min.js"></script>
+
+
+  <script src="index.js"></script>
+  <script>
+    window.$ = window.jQuery = require('jquery');
+  </script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+  <script src="assets/js/theme.js"></script>
+
+
+</body>
+
+
+</html>
